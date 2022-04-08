@@ -254,61 +254,32 @@ section.social i {
   margin: 50px;
 }
 
-/* .skills {
-  width: 100%;
-  height: 500px;
-}
 
-.skills h1 {
+.skills h2{
   text-align: center;
+  color: #ffffff;
 }
 
 .tecnologias {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .tecnologias img {
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   margin: 40px;
 }
 
-.HTML {
-  width: 400px;
-  height: 400px;
+.fundo-tecnologia {
+  width: 150px;
+  height: 150px;
   background-color: #212121;
   margin: 20px;
   padding: 35px;
 }
 
-.CSS {
-  width: 400px;
-  height: 400px;
-  background-color: #212121;
-  margin: 20px;
-  padding: 35px;
-}
-
-.JS {
-  width: 400px;
-  height: 400px;
-  background-color: #212121;
-  margin: 20px;
-  padding: 35px;
-}
-
-.React {
-  width: 400px;
-  height: 400px;
-  background-color: #212121;
-  margin: 20px;
-  padding: 35px;
-}
-
-.React img {
-  width: 250px;
-} */
 
 footer {
   display: flex;
@@ -324,44 +295,3 @@ footer p{
   width: 150px;
 }
 
-/* Media Querie */
-
-@media (max-width: 600px) {
-  .foto-programador img {
-    width: 0px;
-    height: 0px;
-  }
-
-  .apresentacao {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 525px) {
-  .cabecalho {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  nav ul li {
-    display: block;
-    margin-top: 10px;
-  }
-
-  .principal p {
-    font-size: 1em;
-  }
-
-  .projeto-pai {
-    grid-template-rows: repeat(2, 230px);
-  }
-
-  .responsividade,
-  .sites {
-    width: 60%;
-    height: 60%;
-  }
-}
