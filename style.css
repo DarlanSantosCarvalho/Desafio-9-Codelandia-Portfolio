@@ -338,6 +338,11 @@ footer p{
     height: 50%;
   }
 
+  .responsividade,
+  .sites p{
+    font-size: 1em;
+  }
+
   .apresentacao {
     text-align: center;
     margin-top: 20px;
